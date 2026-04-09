@@ -1,4 +1,8 @@
-//lock in
+//hey welcome to null.pid 
+//pid values are in pid.cpp
+//and robot configuration is in robotconfig.cpp
+
+
 
 #include "main.h"
 #include "pid.h"
@@ -68,7 +72,8 @@ void autonomous() {
     turnPID(70);  
 	pros::delay(100);
 	intake.move(127);
-	drivePID(1400);  
+	drivePID(1200);  
+	turnPID(-70);
 	
 	
 }
