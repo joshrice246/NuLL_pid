@@ -15,6 +15,8 @@ for turning pid repeat the same proccess as above
 
 once that all done go to main and make and auton undervoid autonomous()
 
+once you have a basic route built change the i value for both till it corrects proper
+
 --troubleshooting--
 
 -bot is over stearing or under steeering (example when turnPID is set to 70 or -70 it turns 90deg)    change the D value 
@@ -22,3 +24,27 @@ once that all done go to main and make and auton undervoid autonomous()
 -include path not found           set include path to "." in settings then reset then reset it back to the original
 
 -bot spins in place         check the inertial connection 
+
+
+
+
+--why do we use a pid--
+
+
+
+
+
+
+--the math behind it--
+
+
+
+
+
+--how each value affects the bot--
+
+
+
+
+
+--final notes--
